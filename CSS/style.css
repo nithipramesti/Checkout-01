@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+}
+
+body main {
+  margin: 50px auto;
+  width: 700px;
+}
+
+body main h1 {
+  font-size: 40px;
+}
+
+body main form {
+  width: 100%;
+}
+
+body main form .form-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main form .form-input h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+body main form .form-input h2 span {
+  display: block;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  border: solid 2px #229EDE;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+body main form .form-input .container {
+  margin-bottom: 15px;
+}
+
+body main form .form-input label, body main form .form-input input, body main form .form-input select {
+  display: block;
+  width: 320px;
+}
+
+body main form .form-input label {
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+body main form .form-input input, body main form .form-input select {
+  border-radius: 5px;
+  height: 25px;
+  border: 1.5px solid #cfcfcf;
+}
+
+body main form .form-input select {
+  height: 30px;
+}
+
+body main form .form-input .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body main form .form-input .flex label, body main form .form-input .flex input, body main form .form-input .flex select {
+  width: 150px;
+}
+
+body main form .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 50px;
+}
+
+body main form .button-container button {
+  border: none;
+  background-color: transparent;
+}
+
+body main form .button-container button a {
+  text-transform: uppercase;
+  color: #575757;
+  font-size: 14px;
+}
+
+body main form .button-container button .store {
+  font-weight: 400;
+  color: #a6a6a6;
+  background-color: #fff;
+  border: 1px solid #a6a6a6;
+  border-radius: 40px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+body main form .button-container input {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #229EDE;
+  border: none;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
